@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  box-sizing: border-box;
+  color: white;
+  background-color: #191411;
+  margin: 0 auto;
+  font-weight: 600;
+  font-family: sans-serif;
+  width: 100%;
+  height: fit-content;
+  overflow-x: hidden;
+}
+html body .header {
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+  background: url(../images/main_bg.png) 0 0 no-repeat;
+  background-size: cover;
+}
+html body .header .navbar {
+  padding: 0 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 130px;
+}
+html body .header .navbar .logo {
+  margin: auto;
+  display: block;
+  margin-left: 0;
+  height: 50px;
+}
+html body .header .navbar .logo a {
+  display: block;
+  height: 100%;
+}
+html body .header .navbar .menu {
+  margin: auto;
+  text-align: center;
+}
+html body .header .navbar .menu-item {
+  cursor: pointer;
+  color: white;
+  margin-right: 50px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}
+html body .header .navbar .currency {
+  margin: auto;
+  margin-right: 0;
+  width: 45px;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+html body .header .hero .list {
+  margin: 30px auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1200px;
+  height: 1200px;
+  background: url(../images/burgers_bg.png) 0 0 no-repeat;
+  background-size: cover;
+}
+html body .header .hero .list .card {
+  width: 384px;
+  height: 564px;
+  position: relative;
+  list-style-type: none;
+  border-radius: 16px;
+  background: #211A16;
+  border: 1px solid #353535;
+}
+html body .header .hero .list .card .content {
+  width: 324px;
+  height: 504px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  gap: 24px;
+  opacity: 0px;
+}
+html body .header .hero .list .card .content .item-img img {
+  bottom: 140px;
+  height: 250px;
+  width: 324px;
+  right: 5px;
+}
+html body .header .hero .list .card .content .card-title {
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.4px;
+  text-align: left;
+  margin-top: 24px;
+}
+html body .header .hero .list .card .content .card-text {
+  width: 302px;
+  height: 88px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  margin-top: 24px;
+}
+html body .header .hero .list .card .content-footer {
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  height: 65px;
+  margin-top: 24px;
+}
+html body .header .hero .list .card .content-footer-frame {
+  width: 60px;
+  height: 62px;
+}
+html body .header .hero .list .card .content-footer-frame .card-price {
+  width: 60.5px;
+  height: 39px;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.2px;
+  text-align: left;
+}
+html body .header .hero .list .card .content-footer-frame .card-weight {
+  width: 49px;
+  height: 25px;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19.2px;
+  text-align: left;
+  opacity: 0.5;
+}
+html body .header .hero .list .card .content-footer .btn-cart {
+  border: none;
+  width: 182px;
+  height: 62px;
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .header .hero .list .card .content-footer .btn-cart img {
+  width: 24px;
+  height: 24px;
+}
+html body::-webkit-scrollbar {
+  display: none;
+}
+html button {
+  cursor: pointer;
+  padding: 19px 50px;
+  width: 100%;
+  height: 62px;
+  font-size: 18px;
+  background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
+  border-radius: 8px;
+  border: none;
+  position: relative;
+  z-index: 1;
+}
+html button:hover, html button:focus {
+  background: linear-gradient(95.61deg, #E2B438 0%, #DA8023 100%);
+}
+html button:active {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=basket.css.map */
